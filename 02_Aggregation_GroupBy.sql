@@ -98,10 +98,10 @@ select year(OrderDate) as OrderYear ,count(*) from orders group by OrderYear;
 -- Display the total freight cost for each shipping company. 
 select ShipVia,sum(freight) as TotalFreight from orders group by ShipVia order by ShipVia asc;
 
--- Display the average freight cost for each shipping company.  --RECHECK
+-- Display the average freight cost for each shipping company. 
 select ShipVia,avg(freight) as AverageFreight from orders group by ShipVia order by ShipVia asc;
 
--- Display the total number of products in each price range based on Discontinued status.  --RECHECK
+-- Display the total number of products in each price range based on Discontinued status.  
 select UnitPrice , Discontinued,count(*) from products group by UnitPrice , Discontinued;
 
 -- Display the total inventory value for each category.
