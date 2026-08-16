@@ -91,7 +91,7 @@ the Northwind database.
 | File | Topic |
 |---|---|
 | `00_Database_Setup.sql` | Database setup |
-| `01_Basics_Select_Where.sql` | SELECT and filtering |
+| `01_Basic_Queries.sql` | SELECT and filtering |
 | `02_Aggregation_GroupBy.sql` | Aggregation and GROUP BY |
 | `03_Joins.sql` | JOIN operations |
 | `04_Set_Operators.sql` | UNION, UNION ALL, INTERSECT, EXCEPT |
